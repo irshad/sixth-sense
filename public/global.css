@@ -3,3 +3,8 @@
 	color: #333;
 	box-sizing: border-box;
 }
+
+.dashboard {
+	background: #fff7cc url('./assets/home_bg.jpeg') center center / 100% 100% no-repeat;
+	height: 100vh;
+}

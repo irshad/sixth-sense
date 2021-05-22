@@ -1,5 +1,6 @@
 export let flipCard = {
-    name: "Flip-card",
+    host: 'Nikhil',
+    more: 'Project Chairmen: Nikhil .......',
     items: [
         {
             no: 1,
@@ -8,7 +9,8 @@ export let flipCard = {
             },
             back: {
                 image: "assets/jocker.jpeg",
-                audio: ""
+                audio: "assets/jocker.mp3",
+                status: "jocker"
             },
         },
         {
@@ -17,8 +19,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/jocker.jpeg",
+                audio: "assets/jocker.mp3",
+                status: "jocker"
             },
         },
         {
@@ -27,8 +30,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/jocker.jpeg",
+                audio: "assets/jocker.mp3",
+                status: "jocker"
             },
         },
         {
@@ -37,8 +41,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/won_1.jpeg",
+                audio: "assets/won.mp3",
+                status: "won"
             },
         },
         {
@@ -47,8 +52,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/won_1.jpeg",
+                audio: "assets/won.mp3",
+                status: "won"
             },
         },
         {
@@ -57,8 +63,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/won_1.jpeg",
+                audio: "assets/won.mp3",
+                status: "won"
             },
         },
         {
@@ -68,7 +75,8 @@ export let flipCard = {
             },
             back: {
                 image: "assets/random_1.jpeg",
-                audio: ""
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         },
         {
@@ -78,7 +86,8 @@ export let flipCard = {
             },
             back: {
                 image: "assets/random_1.jpeg",
-                audio: ""
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         },
         {
@@ -88,7 +97,8 @@ export let flipCard = {
             },
             back: {
                 image: "assets/random_1.jpeg",
-                audio: ""
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         },
         {
@@ -97,8 +107,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/random_2.jpeg",
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         },
         {
@@ -107,8 +118,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/random_2.jpeg",
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         },
         {
@@ -117,8 +129,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/random_2.jpeg",
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         },
         {
@@ -127,8 +140,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/random_3.jpeg",
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         },
         {
@@ -137,8 +151,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/random_3.jpeg",
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         },
         {
@@ -147,8 +162,9 @@ export let flipCard = {
                 image: "assets/card_bg.jpeg",
             },
             back: {
-                image: "assets/random_1.jpeg",
-                audio: ""
+                image: "assets/random_3.jpeg",
+                audio: "assets/wrong.mp3",
+                status: "wrong"
             },
         }
     ],
