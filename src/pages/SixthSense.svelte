@@ -9,7 +9,9 @@
         };
         
         console.log(JSON.stringify(flipCard));
-        
+
+        // value = JSON.stringify(flipCard);
+
         flipCard.items = flipCard.items.map((elem) => ({ 
             ...elem,
             active: true, 
@@ -24,12 +26,9 @@
         }
     }
 
-    let show = false;
-
 </script>
 
 <div class="container">
-    <!-- <button on:click={() => show = !show}>Show</button> -->
     <div class="card-section">
         {#each flipCard.items as item, i}
             <div class="scene">
@@ -55,32 +54,6 @@
         {/each}
     </div>
 </div>
-
-<!-- {#if show}
-    <div class="over-modal">
-        <div class="container pt-4">
-            <b class="d-flex justify-content-end pb-2" on:click={() => show=!show}>
-                Close
-            </b>
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>Positon</th>
-                        <th>status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {#each flipCard.items as item}
-                        <tr>
-                            <td>{item.no}</td>
-                            <td>{item.back.status}</td>
-                        </tr>
-                    {/each}
-                </tbody>
-            </table>
-        </div>
-    </div>
-{/if} -->
 
 <style>
 
@@ -148,21 +121,6 @@
         font-weight: 700;
         font-weight: 600;
         font-family: 'Orbitron', sans-serif;
-    }
-
-    .over-modal {
-        position: absolute;
-        top: 0;
-        right:0;
-        bottom: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-color: #fff;
-    }
-
-    b {
-        cursor: pointer;
     }
 
     @media (min-width:300px) and (max-width:800px) {

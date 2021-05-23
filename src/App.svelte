@@ -10,6 +10,7 @@
         <Route path="/" component={Dashboard} />
         <Route path="game" component={SixthSense} />
     </Router>
+	<!-- <SixthSense/> -->
 </div>
 <div class="warning-message">
 	<RotationError />
