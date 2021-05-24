@@ -1,6 +1,5 @@
 export let flipCard = {
-    host: 'Nikhil',
-    more: 'Project Chairmen: Nikhil .......',
+    host: 'Nikhil Jogiparthy',
     items: [
         {
             no: 1,
