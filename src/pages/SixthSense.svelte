@@ -36,7 +36,7 @@
                     <!-- front card -->
                     <div class="card-face card-front" style="background: #fff7cc url('{item.front.image}') center center / 100% 100% no-repeat;">
                         <span class="text-scroll">
-                            <p>{i+1}</p>
+                            
                         </span>
                     </div>
 
