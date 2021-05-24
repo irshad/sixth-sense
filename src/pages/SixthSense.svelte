@@ -14,15 +14,22 @@
 
         flipCard.items = flipCard.items.map((elem) => ({ 
             ...elem,
-            active: true, 
+            active: true,
+            paused: true,
         }));
     });
 
     function flip(index) {
         if (flipCard.items[index].active == true) {
             flipCard.items[index].active = false;
+			if (flipCard.items[index].paused == true) {
+				flipCard.items[index].paused = false;
+			}
         } else {
             flipCard.items[index].active = true;
+			if (flipCard.items[index].paused == false) {
+				flipCard.items[index].paused = true;
+			}
         }
     }
 
@@ -45,7 +52,7 @@
                         <span class="text-scroll">
                             <!-- empty fallback -->
                         </span>
-                        <audio src={item.back.audio} bind:paused={item.active}>
+                        <audio src={item.back.audio} bind:paused={item.paused}>
                             <track kind="captions">
                        </audio>
                     </div>
