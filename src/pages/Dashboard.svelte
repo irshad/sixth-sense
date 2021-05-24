@@ -8,13 +8,14 @@
         <div class="title">
             <h2>VYAS</h2>
             <h1 class="">SIXTH SENSE</h1>
-            <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-end align-items-center">
                 <h2 class="float-right">SESON 2</h2>
+                <a href="/game" use:link class="btn btn-outline-light btn-lg">LETS GO</a>
             </div>
         </div>
 
         <div class="text-center">
-            <a href="/game" use:link class="btn btn-outline-light btn-lg">LETS GO</a>
+            
         </div>
 
         <div class="info-section pb-4">
@@ -44,7 +45,8 @@
     }
 
     .btn {
-        padding: 15px 50px;
+        padding: 15px 35px;
+        margin-left: 20px;
         font-weight: 500;
         font-family: 'Orbitron', sans-serif;
     }
