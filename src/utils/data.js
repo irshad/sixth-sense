@@ -5,7 +5,7 @@ export let flipCard = {
         {
             no: 1,
             front: {
-                image: "assets/card_bg.jpeg",
+                image: "assets/etv.jpeg",
             },
             back: {
                 image: "assets/jocker.jpeg",
