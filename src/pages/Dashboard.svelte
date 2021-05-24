@@ -17,7 +17,7 @@
             <a href="/game" use:link class="btn btn-outline-light btn-lg">LETS GO</a>
         </div>
 
-        <div class="info-section">
+        <div class="info-section pb-4">
             <h3 class="d-flex justify-content-start">HOST: {flipCard.host}</h3>
             <h5>{flipCard.more}</h5>
         </div>
@@ -31,7 +31,7 @@
 
     h1 {
         color: #fff;
-        font-size: 8.5vw;
+        font-size: 8vw;
         letter-spacing: 7px;
         font-weight: 600;
         font-family: 'Orbitron', sans-serif;
