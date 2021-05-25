@@ -35,8 +35,20 @@
 
 </script>
 
-<div class="container">
-    <div class="card-section">
+<div class=" row m-auto">
+    <div class="col-sm-2 add">
+        <div class="add-card">
+            <img src="assets/tv5.jpeg" alt="">
+        </div>
+        <div class="add-card">
+            <img src="assets/tv9.jpeg" alt="">
+        </div>
+        <div class="add-card">
+            <img src="assets/vyas21.jpeg" alt="">
+        </div>
+    </div>
+
+    <div class="card-section col-sm-8">
         {#each flipCard.items as item, i}
             <div class="scene">
                 <div class="card-flip" class:flipped={!item.active} on:click={() => flip(i)}>
@@ -59,6 +71,18 @@
                 </div>
             </div>
         {/each}
+    </div>
+
+    <div class="col-sm-2 add">
+        <div class="add-card">
+            <img src="assets/vyas21.jpeg" alt="">
+        </div>
+        <div class="add-card">
+            <img src="assets/tnews.jpeg" alt="">
+        </div>
+        <div class="add-card">
+            <img src="assets/tv5.jpeg" alt="">
+        </div>
     </div>
 </div>
 
@@ -128,6 +152,19 @@
         font-weight: 700;
         font-weight: 600;
         font-family: 'Orbitron', sans-serif;
+    }
+
+    .add {
+        padding: 30px;
+        
+    }
+
+    .add-card {
+        padding-bottom: 50px;
+    }
+
+    .add img {
+        width: 100%;
     }
 
     @media (min-width:300px) and (max-width:800px) {

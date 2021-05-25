@@ -5,7 +5,7 @@ export let flipCard = {
         {
             no: 1,
             front: {
-                image: "assets/tnews.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/jocker.jpeg",
@@ -16,7 +16,7 @@ export let flipCard = {
         {
             no:2,
             front: {
-                image: "assets/tv5.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/jocker.jpeg",
@@ -27,7 +27,7 @@ export let flipCard = {
         {
             no:3,
             front: {
-                image: "assets/tv9.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/jocker.jpeg",
@@ -38,7 +38,7 @@ export let flipCard = {
         {
             no:4,
             front: {
-                image: "assets/v6.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/won_1.jpeg",
@@ -49,7 +49,7 @@ export let flipCard = {
         {
             no:5,
             front: {
-                image: "assets/vyas21.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/won_1.jpeg",
@@ -60,7 +60,7 @@ export let flipCard = {
         {
             no:6,
             front: {
-                image: "assets/vyas21.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/won_1.jpeg",
@@ -71,7 +71,7 @@ export let flipCard = {
         {
             no:7,
             front: {
-                image: "assets/v6.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_1.jpeg",
@@ -82,7 +82,7 @@ export let flipCard = {
         {
             no:8,
             front: {
-                image: "assets/tv9.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_1.jpeg",
@@ -93,7 +93,7 @@ export let flipCard = {
         {
             no:9,
             front: {
-                image: "assets/tv5.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_1.jpeg",
@@ -104,7 +104,7 @@ export let flipCard = {
         {
             no:10,
             front: {
-                image: "assets/tnews.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_2.jpeg",
@@ -115,7 +115,7 @@ export let flipCard = {
         {
             no:11,
             front: {
-                image: "assets/tnews.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_2.jpeg",
@@ -126,7 +126,7 @@ export let flipCard = {
         {
             no:12,
             front: {
-                image: "assets/tv5.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_2.jpeg",
@@ -137,7 +137,7 @@ export let flipCard = {
         {
             no:13,
             front: {
-                image: "assets/tv9.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_3.jpeg",
@@ -148,7 +148,7 @@ export let flipCard = {
         {
             no:14,
             front: {
-                image: "assets/v6.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_3.jpeg",
@@ -159,7 +159,7 @@ export let flipCard = {
         {
             no:15,
             front: {
-                image: "assets/vyas21.jpeg",
+                image: "assets/card_bg.jpeg",
             },
             back: {
                 image: "assets/random_3.jpeg",
