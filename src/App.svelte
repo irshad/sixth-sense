@@ -3,14 +3,15 @@
     import Dashboard from "./pages/Dashboard.svelte";
     import SixthSense from "./pages/SixthSense.svelte";
     import RotationError from "./components/RotationError.svelte";
+	import Spinner from "./pages/Spinner.svelte";
 </script>
 
 <div class="wrapper">
     <Router>
         <Route path="/" component={Dashboard} />
         <Route path="game" component={SixthSense} />
+        <Route path="spinner" component={Spinner} />
     </Router>
-	<!-- <SixthSense/> -->
 </div>
 <div class="warning-message">
 	<RotationError />
