@@ -18,7 +18,7 @@
 
     <div class="table-section">
         <table>
-            <tr>
+            <tr class="t-head">
                 <th style="width:20px">S.no</th>
                 <th>Name</th>
                 <th>Business Name</th>
@@ -31,7 +31,11 @@
                     <td>{i+1}</td>
                     <td>{item.name}</td>
                     <td>{item.business_name}</td>
-                    <td>{item.contact_number}</td>
+                    <td>
+                        <a href="tel:{item.contact_number}">
+                            {item.contact_number}
+                        </a>
+                    </td>
                     <td>{item.business_type}</td>
                     <td>{item.intro}</td>
                 </tr>
@@ -61,7 +65,8 @@
     }
 
     .table-section {
-        padding: 20px;
+        margin: 0px 20px 20px 20px;
+        overflow-x: auto;
     }
 
     table {
@@ -69,12 +74,31 @@
         width: 100%;
     }
 
+    .t-head {
+        background-color: #222121;
+        color: #fff;
+    }
+
     td, th {
         border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
     }
+
     th {
         width: calc(100%/5);
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    a {
+        text-decoration: none;
+        color: #222121;
+    }
+
+    a:hover {
+        text-decoration: underline;
     }
 </style>
