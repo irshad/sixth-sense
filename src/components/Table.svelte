@@ -76,7 +76,7 @@
     }
 
     .t-head {
-        background-color: #0e0f15;
+        background-color: #222121;
         color: #fff;
     }
 
