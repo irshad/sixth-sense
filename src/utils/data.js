@@ -181,7 +181,7 @@ export let userData = {
             "business_name": "VSR Traders",
             "contact_number": "7207505535",
             "business_type": "Trading",
-            "intro": "Chocolates trading"
+            "intro": "Trading of all brands of chocolates and wafers and confectionery items (Wholesale )"
         },
         {
             "name": "Sandeep Mansani",
