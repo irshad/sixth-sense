@@ -8,7 +8,8 @@ export let userData = {
             "name": "Jagan Pottimuthu",
             "business_name": "Kalpa Enterprises",
             "contact_number": "9908177257",
-            "business_type": "Designing"
+            "business_type": "Designing",
+            "intro":"We design Flex Banners, Sign Boards, Visiting Cards, Letter Heads, Paper Inserts, Pamphlets, Business Promotions, Social Media Posts, Brochures, Menu Cards, Short video Promos  etc"
         },
         {
             "name": "Nikhil Jogiparthy",
