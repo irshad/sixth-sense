@@ -29,15 +29,15 @@
             {#each userData.items as item, i}
                 <tr>
                     <td>{i+1}</td>
-                    <td>{item.name}</td>
-                    <td>{item.business_name}</td>
+                    <td class="person-name">{item.name ? item.name : ''}</td>
+                    <td>{item.business_name ? item.business_name : ''}</td>
                     <td>
                         <a href="tel:{item.contact_number}">
-                            {item.contact_number}
+                            {item.contact_number ? item.contact_number : ''}
                         </a>
                     </td>
-                    <td>{item.business_type}</td>
-                    <td>{item.intro}</td>
+                    <td>{item.business_type ? item.business_type : ''}</td>
+                    <td>{item.intro ? item.intro : ''}</td>
                 </tr>
             {/each}
         </table>
@@ -62,6 +62,7 @@
         text-align: center;
         padding: 20px;
         margin: 0;
+        font-weight: 700;
     }
 
     .table-section {
@@ -75,7 +76,7 @@
     }
 
     .t-head {
-        background-color: #222121;
+        background-color: #0e0f15;
         color: #fff;
     }
 
@@ -85,12 +86,20 @@
         padding: 8px;
     }
 
+    tr {
+        background-color: #E8F6EF;
+    }
+
     th {
         width: calc(100%/5);
     }
 
     tr:nth-child(even) {
-        background-color: #dddddd;
+        background-color: #FFE194 !important;
+    }
+
+    .person-name {
+        font-weight: 600
     }
 
     a {
