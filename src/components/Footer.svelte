@@ -4,7 +4,7 @@
 
 <div class="footer">
     <p>
-        Powered By RapidNest ( <a href="https://www.therapidnest.com" target="_blank">https://www.therapidnest.com</a> )        
+        Powered By <a href="https://www.therapidnest.com" target="_blank">RapidNest </a>       
     </p>
 </div>
 
@@ -17,11 +17,11 @@
     p {
         font-size: 18px;
         font-weight: 700;
+        color: #000;
     }
 
     a {
-        text-decoration: none;
-        font-weight: 400;
+        color: #253ed2;
     }
 
     a:hover {
