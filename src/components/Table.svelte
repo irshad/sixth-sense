@@ -14,7 +14,6 @@
 
     <div class="header-title">
         <h1>{userData.header}</h1>
-        <!-- <input type="text" /> -->
     </div>
 
     <div class="table-section">
