@@ -1,7 +1,7 @@
 export let userData = {
-    "app_name": "96 Names",
+    "app_name": "VYAS Directory",
     "app_icon": "images/favicon.png",
-    "header": "VYAS Business Directory",
+    "header": "VYAS Directory",
     "header_image": "images/header_banner_new.jpg",
     "items": [
         {
