@@ -199,7 +199,9 @@ export let userData = {
         {
             "name": "Sundeep Boorugu",
             "business_name": "Auto Hub",
-            "contact_number": "9866013436"
+            "contact_number": "9866013436",
+            "business_type": "",
+            "intro": "Our services  Sales, Finance ( New & Used) Rto, Insurance  we deal with all multi brand vehicles"
         },
         {
             "name": "Mahesh Kumar Puri",
